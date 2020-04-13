@@ -1,0 +1,22 @@
+info:
+  app:
+    name: ArithmeticOperationsService
+    description: Application for basic arithmetic operations.
+
+spring:
+  application:
+    name: ArithmeticOperationsService
+
+server:
+  port: 9091
+
+security:
+  basic:
+    authorizeMode: NONE
+
+arithmetic:
+  service:
+    user:
+      id: admin
+      password: password
+      role: USER
