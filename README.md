@@ -26,10 +26,9 @@ return 200 OK with
 	"result":"50"
 }
 
-* Autherizes users with Basic Authentication mechanism of Spring Security.
+* Spring Security Basic Authentication: Autherizes users with Basic Authentication mechanism of Spring Security.
 
-* Design Architecture Style: Hexagonal Architecture where Bootstrap, Domain, & Infrastructure related concerns are abstracted out. Here domain is completely independent of any kind of frameworks inclsuding Spring as well so that domain can be ported across anywhere.   
-Spring Security: Basic Authentication
+* Design Architecture Style: Hexagonal Architecture where Bootstrap, Domain, & Infrastructure related concerns are abstracted out. Here domain is completely independent of any kind of frameworks including Spring as well so that domain can be ported across anywhere.   
 
 * Exception Handling: Appropriate exception handling for controller advice to the client.
 
